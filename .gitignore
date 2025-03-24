@@ -1,5 +1,5 @@
-PedidoApi/.vs
-PedidoApi/bin
-PedidoApi/obj
+!PedidoApi/.vs
+!PedidoApi/bin
+!PedidoApi/bin
 PedidoAdministrativo/.vs
 PedidoAdministrativo/node_modules
