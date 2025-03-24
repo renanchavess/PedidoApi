@@ -69,7 +69,7 @@ namespace PedidoApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult Listar([FromQuery] int? clienteId, [FromQuery] string? status)
+        public IActionResult Listar([FromQuery] int? clienteId, [FromQuery] string? status, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
             Cliente cliente = null;
             PedidoStatus? pedidoStatus = null;
@@ -93,8 +93,9 @@ namespace PedidoApi.Controllers
                 pedidoStatus = statusEnum;
             }
 
-            var pedidos = _pedidoDAO.Listar(cliente, pedidoStatus);
+            var pedidos = _pedidoDAO.Listar(cliente, pedidoStatus, page, pageSize);
             return Ok(pedidos);
         }
+
     }
 }

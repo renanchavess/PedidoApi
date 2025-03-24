@@ -5,19 +5,24 @@ namespace PedidoApi.DataAccess
 {
     public class ProdutoDAO : IProdutoDAO
     {
-        public List<Produto> Listar(string? nome)
+        public List<Produto> Listar(string? nome, int page, int pageSize)
         {
             using (var connection = new Database().GetConnection())
             {
                 connection.Open();
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT * FROM Produtos";
+                var query = "SELECT * FROM Produtos";
 
                 if (!String.IsNullOrEmpty(nome))
                 {
-                    command.CommandText += " WHERE nome LIKE @Nome";
+                    query += " WHERE nome LIKE @Nome";
                     command.Parameters.AddWithValue("@Nome", "%" + nome + "%");
                 }
+
+                query += " ORDER BY id OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY";
+                command.CommandText = query;
+                command.Parameters.AddWithValue("@Offset", (page - 1) * pageSize);
+                command.Parameters.AddWithValue("@PageSize", pageSize);
 
                 var reader = command.ExecuteReader();
                 var produtos = new List<Produto>();

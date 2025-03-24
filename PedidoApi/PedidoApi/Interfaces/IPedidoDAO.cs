@@ -8,6 +8,6 @@ namespace PedidoApi.Interfaces
         Pedido Criar(Pedido pedido);
         Pedido Obter(int id);
         void Atualizar(Pedido pedido);
-        List<Pedido> Listar(Cliente? cliente, PedidoStatus? status);
+        List<Pedido> Listar(Cliente? cliente, PedidoStatus? status, int page, int pageSize);
     }
 }

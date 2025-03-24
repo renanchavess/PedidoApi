@@ -7,6 +7,6 @@ namespace PedidoApi.Interfaces
         void Criar(Cliente cliente);
         Cliente Obter(int id);
         void Atualizar(Cliente cliente);
-        List<Cliente> Listar(string? nome, string? email, string? telefone);
+        List<Cliente> Listar(string? nome, string? email, string? telefone, int page, int pageSize);
     }
 }

@@ -84,48 +84,51 @@ namespace PedidoApi.DataAccess
             }
         }
 
-        public List<Cliente> Listar(string? nome, string? email, string? telefone)
+        public List<Cliente> Listar(string? nome, string? email, string? telefone, int page, int pageSize)
         {
-            using (var connnection = new Database().GetConnection())
+            using (var connection = new Database().GetConnection())
             {
-                connnection.Open();
-                var cmd = connnection.CreateCommand();
-                cmd.CommandText = "SELECT c.id, c.nome, c.email, c.telefone, e.rua, e.numero, e.cidade, e.estado, e.cep " +
-                    "FROM Clientes as c " +
-                    "INNER JOIN Enderecos as e ON e.cliente_id = c.id";
-                
+                connection.Open();
+                var command = connection.CreateCommand();
+                var query = "SELECT c.id, c.nome, c.email, c.telefone, e.rua, e.numero, e.cidade, e.estado, e.cep " +
+                            "FROM Clientes as c " +
+                            "INNER JOIN Enderecos as e ON e.cliente_id = c.id";
+
                 if (!string.IsNullOrEmpty(nome) || !string.IsNullOrEmpty(email) || !string.IsNullOrEmpty(telefone))
                 {
-                    cmd.CommandText += " WHERE ";
+                    query += " WHERE ";
 
                     if (!string.IsNullOrEmpty(nome))
                     {
-                        cmd.CommandText += "nome LIKE @Nome AND ";
+                        query += "c.nome LIKE @Nome AND ";
+                        command.Parameters.AddWithValue("@Nome", "%" + nome + "%");
                     }
 
                     if (!string.IsNullOrEmpty(email))
                     {
-                        cmd.CommandText += "email LIKE @Email AND ";
+                        query += "c.email LIKE @Email AND ";
+                        command.Parameters.AddWithValue("@Email", "%" + email + "%");
                     }
 
                     if (!string.IsNullOrEmpty(telefone))
                     {
-                        cmd.CommandText += "telefone LIKE @Telefone AND ";
+                        query += "c.telefone LIKE @Telefone AND ";
+                        command.Parameters.AddWithValue("@Telefone", "%" + telefone + "%");
                     }
 
-                    cmd.CommandText = cmd.CommandText.Substring(0, cmd.CommandText.Length - 5);
-                }                
+                    query = query.Substring(0, query.Length - 5);
+                }
 
-                cmd.Parameters.AddWithValue("@Nome", "%" + nome + "%");
-                cmd.Parameters.AddWithValue("@Email", "%" + email + "%");
-                cmd.Parameters.AddWithValue("@Telefone", "%" + telefone + "%");
+                query += " ORDER BY c.id OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY";
+                command.CommandText = query;
+                command.Parameters.AddWithValue("@Offset", (page - 1) * pageSize);
+                command.Parameters.AddWithValue("@PageSize", pageSize);
 
-                var reader = cmd.ExecuteReader();
-
+                var reader = command.ExecuteReader();
                 var clientes = new List<Cliente>();
 
                 while (reader.Read())
-                {                    
+                {
                     clientes.Add(new Cliente
                     {
                         Id = reader.GetInt32(reader.GetOrdinal("id")),

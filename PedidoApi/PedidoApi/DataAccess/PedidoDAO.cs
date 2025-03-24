@@ -77,38 +77,34 @@ namespace PedidoApi.DataAccess
             }
         }
 
-        public List<Pedido> Listar(Cliente? cliente, PedidoStatus? status)
+        public List<Pedido> Listar(Cliente? cliente, PedidoStatus? status, int page, int pageSize)
         {
             using (var connection = new Database().GetConnection())
             {
                 connection.Open();
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT * FROM Pedidos";
+                var query = "SELECT * FROM Pedidos WHERE 1=1";
 
-                if (cliente is not null || status is not null)
+                if (cliente != null)
                 {
-                    command.CommandText += " WHERE";
-
-
-                    if (cliente is not null)
-                    {
-                        command.CommandText += " cliente_id = @ClienteId AND";
-                        command.Parameters.AddWithValue("@ClienteId", cliente.Id);
-                    }
-
-                    if (status is not null)
-                    {
-                        command.CommandText += " status = @Status AND";
-                        command.Parameters.AddWithValue("@Status", status);
-                    }
-
-                    command.CommandText = command.CommandText.Remove(command.CommandText.Length - 4, 4);
+                    query += " AND cliente_id = @ClienteId";
+                    command.Parameters.AddWithValue("@ClienteId", cliente.Id);
                 }
 
-                command.ExecuteNonQuery();
+                if (status != null)
+                {
+                    query += " AND status = @Status";
+                    command.Parameters.AddWithValue("@Status", (int)status);
+                }
+
+                query += " ORDER BY id OFFSET @Offset ROWS FETCH NEXT @PageSize ROWS ONLY";
+                command.CommandText = query;
+                command.Parameters.AddWithValue("@Offset", (page - 1) * pageSize);
+                command.Parameters.AddWithValue("@PageSize", pageSize);
 
                 var reader = command.ExecuteReader();
                 var pedidos = new List<Pedido>();
+
                 while (reader.Read())
                 {
                     var pedido = new Pedido
@@ -119,9 +115,11 @@ namespace PedidoApi.DataAccess
                     };
                     pedidos.Add(pedido);
                 }
+
                 return pedidos;
             }
         }
+
 
         public Pedido Obter(int id)
         {

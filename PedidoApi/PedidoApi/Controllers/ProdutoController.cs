@@ -16,9 +16,9 @@ namespace PedidoApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult Listar(string? nome)
+        public IActionResult Listar(string? nome, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
-            var produtos = _produtoDAO.Listar(nome);
+            var produtos = _produtoDAO.Listar(nome, page, pageSize);
             return Ok(produtos);
         }
 
