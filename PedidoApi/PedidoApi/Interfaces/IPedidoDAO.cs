@@ -1,12 +1,13 @@
-﻿using PedidoApi.Models;
+﻿using PedidoApi.Enums;
+using PedidoApi.Models;
 
 namespace PedidoApi.Interfaces
 {
     public interface IPedidoDAO
     {
-        void Criar(Pedido pedido);
+        Pedido Criar(Pedido pedido);
         Pedido Obter(int id);
         void Atualizar(Pedido pedido);
-        List<Pedido> Listar();
+        List<Pedido> Listar(Cliente? cliente, PedidoStatus? status);
     }
 }

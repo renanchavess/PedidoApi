@@ -43,7 +43,7 @@ CREATE TABLE Produtos (
 CREATE TABLE Pedidos (
     id INT NOT NULL IDENTITY(1,1),
     cliente_id INT NOT NULL,
-    status VARCHAR(1) NOT NULL,
+    status INT NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (cliente_id) REFERENCES Clientes(id)
 );
@@ -53,7 +53,7 @@ CREATE TABLE ItensPedidos (
     pedido_id INT NOT NULL,
     produto_id INT NOT NULL,
     quantidade INT NOT NULL,
-    preco_unitario DECIMAL(10,2) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
     PRIMARY KEY (pedido_id, produto_id),
     FOREIGN KEY (pedido_id) REFERENCES Pedidos(id),
     FOREIGN KEY (produto_id) REFERENCES Produtos(id)

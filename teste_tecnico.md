@@ -12,7 +12,7 @@ A empresa REV, especializada na revenda de materiais, identificou a necessidade 
 [x] O formato das respostas deve seguir o padrão JSON.
 [x] A API deve permitir atualizar apenas o status do pedido.
 [x] A API deve permitir filtrar os clientes fornecendo filtros.
-[-] A API deve permitir filtrar os pedidos fornecendo filtros.
+[x] A API deve permitir filtrar os pedidos fornecendo filtros.
 [x] A API deve permitir filtrar os produtos fornecendo filtros.(POSSIBILIDADE DE FILTRAR POR QUANTIDADE NO ESTOQUE E PREÇO)
 [-] A API deve permitir paginação dos clientes.
 [-] A API deve permitir paginação dos pedidos.

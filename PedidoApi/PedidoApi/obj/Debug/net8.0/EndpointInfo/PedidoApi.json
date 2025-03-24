@@ -130,21 +130,48 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Pedido"
+                "$ref": "#/components/schemas/PedidoCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Pedido"
+                "$ref": "#/components/schemas/PedidoCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Pedido"
+                "$ref": "#/components/schemas/PedidoCreateDTO"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Pedido"
+        ],
+        "parameters": [
+          {
+            "name": "clienteId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -315,7 +342,7 @@
         },
         "additionalProperties": false
       },
-      "Pedido": {
+      "PedidoCreateDTO": {
         "type": "object",
         "properties": {
           "id": {
@@ -329,32 +356,21 @@
           "itens": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/PedidoItem"
+              "$ref": "#/components/schemas/PedidoItemDTO"
             },
             "nullable": true
-          },
-          "status": {
-            "$ref": "#/components/schemas/PedidoStatus"
           }
         },
         "additionalProperties": false
       },
-      "PedidoItem": {
+      "PedidoItemDTO": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "pedidoId": {
+          "quantidade": {
             "type": "integer",
             "format": "int32"
           },
           "produtoId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "quantidade": {
             "type": "integer",
             "format": "int32"
           },
@@ -364,14 +380,6 @@
           }
         },
         "additionalProperties": false
-      },
-      "PedidoStatus": {
-        "enum": [
-          70,
-          80
-        ],
-        "type": "integer",
-        "format": "int32"
       }
     }
   }

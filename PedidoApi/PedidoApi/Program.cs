@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IClienteDAO, ClienteDAO>();
 builder.Services.AddScoped<IProdutoDAO, ProdutoDAO>();
+builder.Services.AddScoped<IPedidoDAO, PedidoDAO>();
 
 var app = builder.Build();
 
