@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "C#: PedidoApi [https]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/PedidoApi/PedidoApi/PedidoApi.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
+        }
+    ]
+}

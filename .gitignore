@@ -1,4 +1,2 @@
-PedidoApi/.vs
-PedidoApi/bin
-PedidoAdministrativo/.vs
-PedidoAdministrativo/node_modules
+**/obj
+**/bin
