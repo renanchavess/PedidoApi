@@ -41,3 +41,12 @@ C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\obj\Debug
 C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\obj\Debug\net8.0\PedidoApi.pdb
 C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\obj\Debug\net8.0\PedidoApi.genruntimeconfig.cache
 C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\obj\Debug\net8.0\ref\PedidoApi.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\renan\OneDrive\Documents\GitHub\PedidoApi\PedidoApi\PedidoApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

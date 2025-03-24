@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "PedidoApi.Controllers.AuthController",
+    "Method": "LoginAdministrativo",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PedidoApi.DTO.AuthLoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PedidoApi.Controllers.ClienteController",
     "Method": "Criar",
     "RelativePath": "api/Cliente",
@@ -8,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cliente",
-        "Type": "PedidoApi.Models.Cliente",
+        "Name": "clienteDTO",
+        "Type": "PedidoApi.DTO.ClienteDTO",
         "IsRequired": true
       }
     ],
@@ -93,7 +109,7 @@
     "Parameters": [
       {
         "Name": "pedidoDTO",
-        "Type": "PedidoApi.DTO.PedidoCreateDTO",
+        "Type": "PedidoApi.DTO.PedidoDTO",
         "IsRequired": true
       }
     ],
@@ -204,6 +220,38 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PedidoApi.Controllers.TokenController",
+    "Method": "CriarToken",
+    "RelativePath": "api/Token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PedidoApi.DTO.TokenCreate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PedidoApi.Controllers.TokenController",
+    "Method": "RevokeToken",
+    "RelativePath": "api/Token",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

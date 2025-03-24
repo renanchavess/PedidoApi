@@ -21,7 +21,7 @@ namespace PedidoApi.Controllers
         }
 
         [HttpPost]
-        public IActionResult Criar([FromBody] PedidoCreateDTO pedidoDTO)
+        public IActionResult Criar([FromBody] PedidoDTO pedidoDTO)
         {
             var pedido = _pedidoDAO.Criar(pedidoDTO.toEntity());
             return StatusCode(StatusCodes.Status201Created, new { pedido_id = pedido.Id, cliente_id = pedido.ClienteId, status = pedido.Status.ToString() });
@@ -94,7 +94,15 @@ namespace PedidoApi.Controllers
             }
 
             var pedidos = _pedidoDAO.Listar(cliente, pedidoStatus, page, pageSize);
-            return Ok(pedidos);
+
+            var pedidosDTO = new List<PedidoDTO>();
+
+            foreach (var pedido in pedidos)
+            {
+                pedidosDTO.Add(PedidoDTO.fromEntity(pedido));
+            }
+
+            return Ok(pedidosDTO);
         }
 
     }

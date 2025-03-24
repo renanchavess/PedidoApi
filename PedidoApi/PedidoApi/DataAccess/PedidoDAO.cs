@@ -113,13 +113,39 @@ namespace PedidoApi.DataAccess
                         ClienteId = Convert.ToInt32(reader["cliente_id"]),
                         Status = (PedidoStatus)Convert.ToInt32(reader["status"])
                     };
+
                     pedidos.Add(pedido);
+                }
+
+                reader.Close();
+
+                foreach (var pedido in pedidos)
+                {
+                    var itemCommand = connection.CreateCommand();
+                    itemCommand.CommandText = "SELECT * FROM ItensPedidos WHERE pedido_id = @PedidoId";
+                    itemCommand.Parameters.AddWithValue("@PedidoId", pedido.Id);
+                    var itemReader = itemCommand.ExecuteReader();
+                    var itens = new List<PedidoItem>();
+
+                    while (itemReader.Read())
+                    {
+                        var item = new PedidoItem
+                        {
+                            PedidoId = pedido.Id,
+                            ProdutoId = Convert.ToInt32(itemReader["produto_id"]),
+                            Quantidade = Convert.ToInt32(itemReader["quantidade"]),
+                            Preco = Convert.ToDecimal(itemReader["preco"])
+                        };
+                        itens.Add(item);
+                    }
+
+                    itemReader.Close();
+                    pedido.Itens = itens;
                 }
 
                 return pedidos;
             }
         }
-
 
         public Pedido Obter(int id)
         {

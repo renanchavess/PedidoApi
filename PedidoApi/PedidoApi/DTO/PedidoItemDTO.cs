@@ -17,5 +17,15 @@ namespace PedidoApi.DTO
                 Preco = this.preco
             };
         }
+
+        public static PedidoItemDTO fromEntity(PedidoItem item)
+        {
+            return new PedidoItemDTO
+            {
+                produtoId = item.ProdutoId,
+                quantidade = item.Quantidade,
+                preco = item.Preco
+            };
+        }
     }
 }

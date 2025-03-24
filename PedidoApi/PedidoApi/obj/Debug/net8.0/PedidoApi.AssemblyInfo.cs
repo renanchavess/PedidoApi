@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PedidoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6063a941da8d2073b1b92f306eae3fdc2d17ef9e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb6f1e3d59e4429fa65ded6c90fd758317f02749")]
 [assembly: System.Reflection.AssemblyProductAttribute("PedidoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PedidoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -59,6 +59,14 @@ CREATE TABLE ItensPedidos (
     FOREIGN KEY (produto_id) REFERENCES Produtos(id)
 );
 
+CREATE TABLE AuthTokens (
+    id INT NOT NULL,
+    token VARCHAR(200) NOT NULL,
+    data_expiracao DATETIME NOT NULL,
+    descricao VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id),    
+);
+
 -- Inserção de dados na tabela Produtos
 INSERT INTO Produtos 
 (nome, preco, estoque) 

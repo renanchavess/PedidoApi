@@ -3,72 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\interfaces\\iclientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\interfaces\\iclientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\interfaces\\iprodutodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\interfaces\\iprodutodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\interfaces\\ipedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\interfaces\\ipedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\pedidodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dto\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dto\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dto\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dto\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\valueobject\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\valueobject\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\authdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\authdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dto\\authlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dto\\authlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dto\\tokencreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dto\\tokencreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\interfaces\\iauthdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\interfaces\\iauthdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\dataaccess\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\dataaccess\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|c:\\users\\renan\\onedrive\\documents\\github\\pedidoapi\\pedidoapi\\pedidoapi\\models\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184C9295-9D4A-4E93-88EB-EC6796360B3C}|PedidoApi\\PedidoApi.csproj|solutionrelative:pedidoapi\\models\\auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,19 +78,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 244,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPedidoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IPedidoDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Interfaces\\IPedidoDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IPedidoDAO.cs",
-              "RelativeToolTip": "PedidoApi\\Interfaces\\IPedidoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoDTO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DTO\\PedidoDTO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoDTO.cs",
+              "RelativeToolTip": "PedidoApi\\DTO\\PedidoDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:31:51.273Z",
+              "WhenOpened": "2025-03-24T07:05:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoItemDTO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DTO\\PedidoItemDTO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoItemDTO.cs",
+              "RelativeToolTip": "PedidoApi\\DTO\\PedidoItemDTO.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:05:18.243Z",
               "EditorCaption": ""
             },
             {
@@ -101,197 +114,192 @@
               "RelativeDocumentMoniker": "PedidoApi\\Controllers\\PedidoController.cs",
               "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\PedidoController.cs",
               "RelativeToolTip": "PedidoApi\\Controllers\\PedidoController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAowEcAAACUAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwGEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T19:04:00.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Endereco.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\ValueObject\\Endereco.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\ValueObject\\Endereco.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\ValueObject\\Endereco.cs",
-              "RelativeToolTip": "PedidoApi\\ValueObject\\Endereco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:02:26.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClienteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IClienteDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Interfaces\\IClienteDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IClienteDAO.cs",
-              "RelativeToolTip": "PedidoApi\\Interfaces\\IClienteDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:28:05.625Z",
+              "WhenOpened": "2025-03-24T07:02:56.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IProdutoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IProdutoDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Interfaces\\IProdutoDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IProdutoDAO.cs",
-              "RelativeToolTip": "PedidoApi\\Interfaces\\IProdutoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DTO\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\ClienteDTO.cs",
+              "RelativeToolTip": "PedidoApi\\DTO\\ClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:31:18.208Z",
+              "WhenOpened": "2025-03-24T06:50:48.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "PedidoApi\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC0AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:54:48.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "PedidoApi\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T21:59:07.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ClienteDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\ClienteDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ClienteDAO.cs",
-              "RelativeToolTip": "PedidoApi\\DataAccess\\ClienteDAO.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAswFgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T02:14:29.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PedidoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\PedidoDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\PedidoDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\PedidoDAO.cs",
-              "RelativeToolTip": "PedidoApi\\DataAccess\\PedidoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T18:36:21.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ProdutoDAO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\ProdutoDAO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ProdutoDAO.cs",
-              "RelativeToolTip": "PedidoApi\\DataAccess\\ProdutoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T21:51:15.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Produto.cs",
-              "RelativeToolTip": "PedidoApi\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:07:51.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\Database.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\Database.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\Database.cs",
-              "RelativeToolTip": "PedidoApi\\DataAccess\\Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T13:48:07.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PedidoItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoItemDTO.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\DTO\\PedidoItemDTO.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\PedidoItemDTO.cs",
-              "RelativeToolTip": "PedidoApi\\DTO\\PedidoItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T19:52:14.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Pedido.cs",
-              "RelativeToolTip": "PedidoApi\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:06:11.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PedidoItem.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\PedidoItem.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Models\\PedidoItem.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\PedidoItem.cs",
-              "RelativeToolTip": "PedidoApi\\Models\\PedidoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T15:15:20.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Program.cs",
-              "RelativeDocumentMoniker": "PedidoApi\\Program.cs",
-              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Program.cs",
-              "RelativeToolTip": "PedidoApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T16:51:28.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "PedidoApi\\Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Cliente.cs",
               "RelativeToolTip": "PedidoApi\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T14:57:21.248Z"
+              "WhenOpened": "2025-03-24T06:49:33.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthDAO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\AuthDAO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\AuthDAO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\AuthDAO.cs",
+              "RelativeToolTip": "PedidoApi\\DataAccess\\AuthDAO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:25:10.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PedidoApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:53:14.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\PedidoDAO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\PedidoDAO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\PedidoDAO.cs",
+              "RelativeToolTip": "PedidoApi\\DataAccess\\PedidoDAO.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAswJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:27:59.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Program.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Program.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Program.cs",
+              "RelativeToolTip": "PedidoApi\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:02:43.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthDAO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IAuthDAO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Interfaces\\IAuthDAO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Interfaces\\IAuthDAO.cs",
+              "RelativeToolTip": "PedidoApi\\Interfaces\\IAuthDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:20:44.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenCreate.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\TokenCreate.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DTO\\TokenCreate.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\TokenCreate.cs",
+              "RelativeToolTip": "PedidoApi\\DTO\\TokenCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:30:43.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "PedidoApi\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:04:12.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "PedidoApi\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:50:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Services\\TokenService.cs",
+              "RelativeToolTip": "PedidoApi\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:56:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\AuthLoginDTO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DTO\\AuthLoginDTO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DTO\\AuthLoginDTO.cs",
+              "RelativeToolTip": "PedidoApi\\DTO\\AuthLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:37:09.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClienteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ClienteDAO.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\DataAccess\\ClienteDAO.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\DataAccess\\ClienteDAO.cs",
+              "RelativeToolTip": "PedidoApi\\DataAccess\\ClienteDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:25:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Auth.cs",
+              "DocumentMoniker": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Auth.cs",
+              "RelativeDocumentMoniker": "PedidoApi\\Models\\Auth.cs",
+              "ToolTip": "C:\\Users\\renan\\OneDrive\\Documents\\GitHub\\PedidoApi\\PedidoApi\\PedidoApi\\Models\\Auth.cs",
+              "RelativeToolTip": "PedidoApi\\Models\\Auth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T05:18:38.296Z",
+              "EditorCaption": ""
             }
           ]
         }
