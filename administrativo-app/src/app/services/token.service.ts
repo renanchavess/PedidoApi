@@ -46,6 +46,7 @@ export class TokenService {
             {
                 headers: {
                     'Content-Type': 'application/json',
+                    'Authorization': 'Basic ' +  'YWRtaW46cGFzc3dvcmQxMjM=' // localStorage.getItem('token')
                 }
             }
         );

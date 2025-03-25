@@ -42,15 +42,10 @@ namespace PedidoApi.Controllers
             return Ok(new { token = token });
         }
 
-        [HttpDelete]
-        public IActionResult RevokeToken(string token)
+        [HttpDelete("{id}")]
+        public IActionResult RevokeToken(int id)
         {
-            if (string.IsNullOrEmpty(token))
-            {
-                return BadRequest();
-            }
-
-            var auth = _authDAO.ObterToken(token);
+            var auth = _authDAO.ObterPorId(id);
 
             if (auth == null)
             {

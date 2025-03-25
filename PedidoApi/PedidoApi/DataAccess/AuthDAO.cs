@@ -55,6 +55,30 @@ namespace PedidoApi.DataAccess
             }
         }
 
+        public Auth ObterPorId(int id)
+        {
+            using (var connection = new Database().GetConnection())
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "SELECT id, token, revogado, descricao, expiracao FROM AuthTokens WHERE id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+                var reader = command.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new Auth
+                    {
+                        Id = reader.GetInt32(0),
+                        Token = reader.GetString(1),
+                        Revogado = reader.GetBoolean(2),
+                        Descricao = reader.GetString(3),
+                        Expiracao = reader.GetDateTime(4)
+                    };
+                }
+                return null;
+            }
+        }
+
         public void RevogarToken(Auth token)
         {
             using (var connection = new Database().GetConnection())

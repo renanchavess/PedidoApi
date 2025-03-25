@@ -1,6 +1,6 @@
 
 export interface Token {
-    id?: number;
+    id: number;
     descricao: string;
     expiracao: Date;
     revogado: boolean;

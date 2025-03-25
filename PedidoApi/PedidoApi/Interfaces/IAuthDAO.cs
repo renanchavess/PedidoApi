@@ -7,6 +7,7 @@ namespace PedidoApi.Interfaces
         void RevogarToken(Auth token);
         void CriarToken(Auth token);
         Auth ObterToken(string token);
+        Auth ObterPorId(int id);
         List<Auth> Listar();        
     }
 }

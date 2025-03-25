@@ -19,5 +19,5 @@ senha: password123
 
 ### Painel Administrativo
 - [ ] O painel deve possuir login utilizando `BASIC AUTH`.
-- [ ] O painel deve permitir geração de tokens de acesso.
-- [ ] O painel deve permitir revogação de tokens de acesso.
+- [x] O painel deve permitir geração de tokens de acesso.
+- [x] O painel deve permitir revogação de tokens de acesso.

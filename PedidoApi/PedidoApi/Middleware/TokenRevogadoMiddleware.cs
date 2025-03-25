@@ -17,7 +17,6 @@ namespace PedidoApi.Middleware
 
         public async Task Invoke(HttpContext context, IAuthDAO authDAO)
         {
-            // Verifica se o cabeçalho Authorization está presente
             if (context.Request.Headers.ContainsKey("Authorization"))
             {
                 var authHeader = context.Request.Headers["Authorization"].ToString();
