@@ -4,7 +4,7 @@ namespace PedidoApi.DataAccess
 {
     public class Database
     {
-        private readonly string _connection = @"Server=localhost;Database=Pedido;Trusted_Connection=True;TrustServerCertificate=True;";
+        private readonly string _connection = @"Server=localhost,1433;Database=Pedidos;User Id=sa;Password=StrongPassword123!;TrustServerCertificate=True;";
 
         public SqlConnection GetConnection()
         {

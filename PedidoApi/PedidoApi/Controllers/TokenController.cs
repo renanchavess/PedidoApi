@@ -14,6 +14,7 @@ namespace PedidoApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(AuthenticationSchemes = "BasicAuthentication")]
     public class TokenController : ControllerBase
     {
         private readonly IAuthDAO _authDAO;
@@ -42,8 +43,13 @@ namespace PedidoApi.Controllers
         }
 
         [HttpDelete]
-        public IActionResult RevokeToken([FromBody] string token)
+        public IActionResult RevokeToken(string token)
         {
+            if (string.IsNullOrEmpty(token))
+            {
+                return BadRequest();
+            }
+
             var auth = _authDAO.ObterToken(token);
 
             if (auth == null)
@@ -51,6 +57,7 @@ namespace PedidoApi.Controllers
                 return NotFound();
             }
 
+            auth.Revogado = true;
             _authDAO.RevogarToken(auth);
             return Ok();
         }

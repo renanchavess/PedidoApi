@@ -9,17 +9,31 @@ namespace PedidoApi.Services
     {
         public string GerarToken(string descricao, DateTime expiracao)
         {
-            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("cApG5jY6c2EJcApG5jY6c2EJcApG5jY6c2EJ"));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("cApG5jY6c2EJcApG5jY6c2EJcApG5jY6c2EJ");
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim(ClaimTypes.Name, descricao)                    
+                }),
+                Expires = expiracao,
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
 
-            var token = new JwtSecurityToken(
-                issuer: descricao,
-                audience: descricao,
-                claims: new List<Claim>(),
-                expires: expiracao,
-                signingCredentials: creds);
+        private static readonly HashSet<string> RevokedTokens = new HashSet<string>();
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+        public void RevogarToken(string token)
+        {
+            RevokedTokens.Add(token);
+        }
+
+        public bool IsTokenRevoked(string token)
+        {
+            return RevokedTokens.Contains(token);
         }
     }
 }

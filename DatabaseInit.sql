@@ -60,10 +60,11 @@ CREATE TABLE ItensPedidos (
 );
 
 CREATE TABLE AuthTokens (
-    id INT NOT NULL,
+    id INT NOT NULL IDENTITY(1,1),
     token VARCHAR(200) NOT NULL,
-    data_expiracao DATETIME NOT NULL,
+    expiracao DATETIME NOT NULL,
     descricao VARCHAR(100) NOT NULL,
+    revogado BIT NOT NULL,
     PRIMARY KEY (id),    
 );
 

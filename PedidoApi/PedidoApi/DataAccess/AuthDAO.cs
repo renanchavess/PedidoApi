@@ -16,7 +16,7 @@ namespace PedidoApi.DataAccess
 
                 try
                 {
-                    command.CommandText = "INSERT INTO Auth (token, revogado, descricao, expiracao) VALUES (@Token, @Revogado, @Descricao, @Expiracao)";
+                    command.CommandText = "INSERT INTO AuthTokens (token, revogado, descricao, expiracao) VALUES (@Token, @Revogado, @Descricao, @Expiracao)";
                     command.Parameters.AddWithValue("@Token", token.Token);
                     command.Parameters.AddWithValue("@Revogado", token.Revogado);
                     command.Parameters.AddWithValue("@Descricao", token.Descricao);
@@ -37,17 +37,18 @@ namespace PedidoApi.DataAccess
             {
                 connection.Open();
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT * FROM Auth WHERE token = @Token";
+                command.CommandText = "SELECT id, token, revogado, descricao, expiracao FROM AuthTokens WHERE token = @Token";
                 command.Parameters.AddWithValue("@Token", token);
                 var reader = command.ExecuteReader();
                 if (reader.Read())
                 {
                     return new Auth
                     {
-                        Token = reader.GetString(0),
-                        Revogado = reader.GetBoolean(1),
-                        Descricao = reader.GetString(2),
-                        Expiracao = reader.GetDateTime(3)
+                        Id = reader.GetInt32(0),
+                        Token = reader.GetString(1),
+                        Revogado = reader.GetBoolean(2),
+                        Descricao = reader.GetString(3),
+                        Expiracao = reader.GetDateTime(4)
                     };
                 }
                 return null;
@@ -64,19 +65,21 @@ namespace PedidoApi.DataAccess
                 command.Transaction = transaction;
                 try
                 {
-                    command.CommandText = "UPDATE Auth SET revogado = @Revogado WHERE token = @Token";
+                    command.CommandText = "UPDATE AuthTokens SET revogado = @Revogado WHERE token = @Token";
                     command.Parameters.AddWithValue("@Revogado", true);
                     command.Parameters.AddWithValue("@Token", token.Token);
                     command.ExecuteNonQuery();
-                }
+                    transaction.Commit();
+                }                
                 catch (Exception ex)
                 {
                     transaction.Rollback();
                 }
                 finally
                 {
-                    transaction.Commit();
+                    connection.Close();
                 }
+                    
             }
         }
 

@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication;
+using PedidoApi.Services;
+using PedidoApi.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +21,13 @@ builder.Services.AddScoped<IProdutoDAO, ProdutoDAO>();
 builder.Services.AddScoped<IPedidoDAO, PedidoDAO>();
 builder.Services.AddScoped<IAuthDAO, AuthDAO>();
 
+// Configuração do Basic Authentication
+builder.Services.AddAuthentication("BasicAuthentication")
+    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
 
-// Configura��o do JWT
-var key = Encoding.ASCII.GetBytes("cApG5jY6c2EJ");
+
+// Configuração do JWT
+var key = Encoding.ASCII.GetBytes("cApG5jY6c2EJcApG5jY6c2EJcApG5jY6c2EJ");
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -32,30 +39,17 @@ builder.Services.AddAuthentication(options =>
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = "aI6b57jMxktD",
-        ValidAudience = "TdL4Wo17ErBR",
         IssuerSigningKey = new SymmetricSecurityKey(key),
-        LifetimeValidator = (notBefore, expires, securityToken, validationParameters) =>
-        {
-            var jwtToken = securityToken as JwtSecurityToken;
-            using (var scope = builder.Services.BuildServiceProvider().CreateScope())
-            {
-                var authDAO = scope.ServiceProvider.GetRequiredService<IAuthDAO>();
-                var revogado = authDAO.TokenRenogado(jwtToken.RawData);
-
-                return expires != null && expires > DateTime.UtcNow && !revogado;
-            }
-        }
+        ValidateIssuer = false,
+        ValidateAudience = false
     };
 });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseMiddleware<TokenRevogadoMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -63,9 +57,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
