@@ -32,7 +32,7 @@ namespace PedidoApi.Services
                 var username = credentials[0];
                 var password = credentials[1];
 
-                // Valide as credenciais (substitua pela lógica de validação real)
+                // Valide as credenciais do usuário neste caso é FIXO
                 if (username != "admin" || password != "password123")
                 {
                     return Task.FromResult(AuthenticateResult.Fail("Invalid Username or Password"));

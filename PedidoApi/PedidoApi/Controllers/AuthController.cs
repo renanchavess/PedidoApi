@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PedidoApi.DTO;
 using PedidoApi.Services;
 
@@ -11,12 +12,12 @@ namespace PedidoApi.Controllers
         [HttpPost]
         public IActionResult LoginAdministrativo([FromBody] AuthLoginDTO request)
         {
-            if (request.Email == "administrativo@gmail.com" && request.Senha == "123")
+            if (request.Email != "admin" || request.Senha != "password123")
             {
-                return Ok();
+                return Unauthorized();
             }
-
-            return Unauthorized();
+            var tokenBase64 = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(request.Email+":"+request.Senha));
+            return Ok(tokenBase64);
         }
     }
 }
