@@ -61,5 +61,11 @@ namespace PedidoApi.Controllers
             _authDAO.RevogarToken(auth);
             return Ok();
         }
+
+        [HttpGet]
+        public IActionResult ListarTokens()
+        {
+            return Ok(_authDAO.Listar());
+        }
     }
 }

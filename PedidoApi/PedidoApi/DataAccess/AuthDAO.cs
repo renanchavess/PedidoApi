@@ -66,7 +66,7 @@ namespace PedidoApi.DataAccess
                 try
                 {
                     command.CommandText = "UPDATE AuthTokens SET revogado = @Revogado WHERE token = @Token";
-                    command.Parameters.AddWithValue("@Revogado", true);
+                    command.Parameters.AddWithValue("@Revogado", token.Revogado);
                     command.Parameters.AddWithValue("@Token", token.Token);
                     command.ExecuteNonQuery();
                     transaction.Commit();
@@ -83,20 +83,27 @@ namespace PedidoApi.DataAccess
             }
         }
 
-        public bool TokenRenogado(string token)
+        public List<Auth> Listar()
         {
             using (var connection = new Database().GetConnection())
             {
                 connection.Open();
                 var command = connection.CreateCommand();
-                command.CommandText = "SELECT revogado FROM Auth WHERE token = @Token";
-                command.Parameters.AddWithValue("@Token", token);
+                command.CommandText = "SELECT id, token, revogado, descricao, expiracao FROM AuthTokens";
                 var reader = command.ExecuteReader();
-                if (reader.Read())
+                var tokens = new List<Auth>();
+                while (reader.Read())
                 {
-                    return reader.GetBoolean(0);
+                    tokens.Add(new Auth
+                    {
+                        Id = reader.GetInt32(0),
+                        Token = reader.GetString(1),
+                        Revogado = reader.GetBoolean(2),
+                        Descricao = reader.GetString(3),
+                        Expiracao = reader.GetDateTime(4)
+                    });
                 }
-                return true;
+                return tokens;
             }
         }
     }

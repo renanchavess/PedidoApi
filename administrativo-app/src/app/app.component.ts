@@ -1,28 +1,30 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
 import { TokenService } from './services/token.service';
 import { Token } from './models/token.model';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet, CommonModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
   providers: [TokenService]
 })
 export class AppComponent {
   tokens: Token[] = [];
 
-  constructor(private TokenService: TokenService) { }
+  constructor(private tokenService: TokenService) { }
 
   ngOnInit() {
     this.obterTokens();
-    console.log("Tokens: ", this.tokens);
   }
 
   obterTokens() {
-    this.TokenService.getTokens().subscribe((tokens) => {
+    this.tokenService.getTokens().subscribe((tokens) => {
       this.tokens = tokens;
+      console.log("Tokens: ", this.tokens);
     });
   }
 }
