@@ -1,4 +1,4 @@
-Implementações realizadas marcadas com X, a parte do backend creio que implementei completo porem do front está listando, criando e revogando os tokens faltou implementar o login apenas.
+O parte do backend creio que implementei completo porem do front está listando, criando e revogando os tokens faltou implementar o login apenas.
 
 ## USUARIO ADMINISTRATIVO
 email: admin
