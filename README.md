@@ -1,4 +1,4 @@
-Implementações realizadas marcadas com X, a parte do backend crio que implementei completo porem do front não consegui por falta de conhecimento no Angular, cheguei a inciar criei as services porem gerou muitos erros e não rodou o projeto.
+Implementações realizadas marcadas com X, a parte do backend creio que implementei completo porem do front não consegui por falta de conhecimento no Angular, cheguei a iniciar criei as services porém gerou muitos erros e não rodou o projeto.
 
 ## USUARIO ADMINISTRATIVO
 email: admin
