@@ -1,5 +1,9 @@
 O backend creio que implementei completo porem do front está listando, criando e revogando os tokens faltou implementar o login apenas.
 
+## Banco de dados
+- SqlServer
+- Script de criação DatabaseInit.sql
+
 ## USUARIO ADMINISTRATIVO
 email: admin
 senha: password123

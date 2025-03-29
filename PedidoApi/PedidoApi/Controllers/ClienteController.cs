@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PedidoApi.DTO;
 using PedidoApi.Interfaces;
@@ -8,6 +9,7 @@ namespace PedidoApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ClienteController : ControllerBase
     {
         private readonly IClienteDAO _clienteDAO;
@@ -37,8 +39,9 @@ namespace PedidoApi.Controllers
         }
 
         [HttpPut]
-        public IActionResult Atualizar([FromBody] Models.Cliente cliente)
+        public IActionResult Atualizar([FromBody] ClienteDTO clienteDTO)
         {
+            Cliente cliente = clienteDTO.toEntity();
             _clienteDAO.Atualizar(cliente);
             return Ok(new { id = cliente.Id, nome = cliente.Nome, ativo = cliente.Ativo ? "Ativo" : "Desativado" });
         }

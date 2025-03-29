@@ -9,9 +9,10 @@ namespace PedidoApi.DTO
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Telefone { get; set; }
+        public string Ativo { get; set; }
         public Endereco Endereco { get; set; }
-
-        public Cliente toEntity(bool ativo = true)
+        
+        public Cliente toEntity()
         {
             return new Cliente
             {
@@ -20,7 +21,7 @@ namespace PedidoApi.DTO
                 Email = this.Email,
                 Telefone = this.Telefone,
                 Endereco = this.Endereco,
-                Ativo = ativo
+                Ativo = Ativo == "Ativo" ? true : false
             };
         }
     }

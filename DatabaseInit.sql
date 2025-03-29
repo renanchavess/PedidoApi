@@ -14,6 +14,7 @@ CREATE TABLE Clientes (
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
     telefone VARCHAR(20) NOT NULL,
+    ativo BIT NOT NULL,
     PRIMARY KEY (id)
 );
 
